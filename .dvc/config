@@ -1,0 +1,4 @@
+[core]
+    remote = animerecom
+['remote "animerecom"']
+    url = gs://my-bucket-86/
