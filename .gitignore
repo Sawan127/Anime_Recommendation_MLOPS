@@ -1,0 +1,8 @@
+myenv310/
+artifacts/model/
+artifacts/model_checkpoint/
+artifacts/processed/
+artifacts/raw/
+artifacts/weights/
+
+Anime_Recommender_MLOPS.egg-info/

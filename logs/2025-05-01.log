@@ -1,0 +1,35 @@
+2025-05-01 15:32:28,676 - INFO - Model Training initialized...........
+2025-05-01 15:32:30,061 - INFO - Data loaded successfully
+2025-05-01 15:32:30,155 - INFO - YAML file config/config.yaml loaded successfully.
+2025-05-01 15:32:30,155 - INFO - Loaded config file from config path
+2025-05-01 15:32:30,155 - ERROR - Error in train_model: 'BaseModel' object has no attribute 'RecommenderNet'
+2025-05-01 15:36:42,690 - INFO - Model Training initialized...........
+2025-05-01 15:36:44,250 - INFO - Data loaded successfully
+2025-05-01 15:36:44,326 - INFO - YAML file config/config.yaml loaded successfully.
+2025-05-01 15:36:44,326 - INFO - Loaded config file from config path
+2025-05-01 15:36:47,193 - INFO - Model compiled successfully
+2025-05-01 15:36:47,193 - INFO - Model created successfully
+2025-05-01 15:36:47,194 - ERROR - Error in train_model: name 'CHECKPOINT_FILE_PATH' is not defined
+2025-05-01 16:13:08,760 - INFO - Model Training initialized...........
+2025-05-01 16:13:10,130 - INFO - Data loaded successfully
+2025-05-01 16:13:10,226 - INFO - YAML file config/config.yaml loaded successfully.
+2025-05-01 16:13:10,227 - INFO - Loaded config file from config path
+2025-05-01 16:13:12,578 - INFO - Model compiled successfully
+2025-05-01 16:13:12,579 - INFO - Model created successfully
+2025-05-01 16:13:12,637 - INFO - Starting model training...
+2025-05-01 16:51:23,333 - INFO - Model Training initialized...........
+2025-05-01 16:51:24,852 - INFO - Data loaded successfully
+2025-05-01 16:51:25,098 - INFO - YAML file config/config.yaml loaded successfully.
+2025-05-01 16:51:25,117 - INFO - Loaded config file from config path
+2025-05-01 16:51:25,785 - INFO - Model compiled successfully
+2025-05-01 16:51:25,786 - INFO - Model created successfully
+2025-05-01 16:51:25,787 - INFO - Starting model training...
+2025-05-01 16:53:32,092 - INFO - Model training completed successfully
+2025-05-01 16:53:32,093 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-05-01 16:53:33,425 - INFO - Model saved at artifacts/model/model.h5
+2025-05-01 16:53:33,431 - INFO - Extracted weights for user_embedding layer
+2025-05-01 16:53:33,447 - INFO - Extracted weights for anime_embedding layer
+2025-05-01 16:53:33,778 - INFO - Model weights saved at artifacts/weights/user_weights.pkl and artifacts/weights/anime_weights.pkl
+2025-05-01 16:53:33,779 - INFO - Model weights saved successfully
+2025-05-01 16:53:33,782 - INFO - Model training process completed successfully.
+2025-05-01 16:53:33,783 - INFO - Model training process finished.
