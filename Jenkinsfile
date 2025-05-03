@@ -21,7 +21,7 @@ pipeline {
                     echo "Making a virtual environment..."
                     sh '''
                         python -m venv ${VENV_DIR}
-                        ./${VENV_DIR}/bin/activate
+                        . ${VENV_DIR}/bin/activate
                         pip install --upgrade pip
                         pip install -e .
                         pip install dvc
@@ -36,7 +36,7 @@ pipeline {
                     script{
                         echo "DVC Pull..."
                         sh '''
-                            ./${VENV_DIR}/bin/activate
+                            . ${VENV_DIR}/bin/activate
                             dvc pull
                         '''
                     }
