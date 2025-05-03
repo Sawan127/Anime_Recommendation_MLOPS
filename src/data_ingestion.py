@@ -5,16 +5,16 @@ from src.logger import get_logger
 from src.custom_exception import CustomException
 from config.paths_config import *
 from utils.common_functions import read_yaml 
-from google.oauth2 import service_account # For credentials
+# from google.oauth2 import service_account # For credentials
 
 
 logger = get_logger(__name__)
 
 # Path to your service account key JSON file # For local testing
-key_path = "/media/saawan/SAWAN HARD DISK/Projects/GCP/anime_recomender/inner-lightning-457510-s9-341a34702f47.json"
+# key_path = "/media/saawan/SAWAN HARD DISK/Projects/GCP/anime_recomender/inner-lightning-457510-s9-341a34702f47.json"
 
 # Create credentials object # For local testing
-credentials = service_account.Credentials.from_service_account_file(key_path)
+# credentials = service_account.Credentials.from_service_account_file(key_path)
 
 class DataIngestion:
     def __init__(self, config):
@@ -29,8 +29,8 @@ class DataIngestion:
 
     def download_csv_from_gcp(self):
         try:
-            client = storage.Client(credentials=credentials) # For local testing
-            # client = storage.Client() # For production
+            # client = storage.Client(credentials=credentials) # For local testing
+            client = storage.Client() # For production
 
             bucket = client.bucket(self.bucket_name)
 
